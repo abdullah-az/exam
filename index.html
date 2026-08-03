@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>بحث نتائج الثانوية العامة السورية 2026</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;color:#102a43;background:#f5f7fa}
+    *{box-sizing:border-box} body{margin:0;padding:24px} main{max-width:620px;margin:auto;background:#fff;border:1px solid #d9e2ec;border-radius:18px;padding:24px;box-shadow:0 12px 35px rgba(16,42,67,.08)}
+    h1{font-size:1.5rem;margin:0 0 10px} p{line-height:1.8;color:#486581} label{display:block;font-weight:700;margin:16px 0 7px}
+    select,input,button,a.button{width:100%;min-height:50px;border-radius:12px;border:1px solid #bcccdc;padding:10px 13px;font:inherit}
+    input{direction:ltr;text-align:center;font-size:1.15rem} button,a.button{display:flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;cursor:pointer}
+    button{background:#146c43;color:white;border-color:#146c43;margin-top:20px} a.button{background:#eef6ff;color:#0b4f86;margin-top:10px}
+    .note{margin-top:18px;padding:13px;border-radius:12px;background:#fff8e6;color:#7c5b00;font-size:.92rem}.small{font-size:.85rem}
+  </style>
+</head>
+<body>
+<main>
+  <h1>نتائج الثانوية العامة السورية 2026</h1>
+  <p>واجهة خفيفة ترسل طلبًا واحدًا مباشرة إلى صفحة النتائج الرسمية، بدل تحميل التطبيق أو الموقع الكامل.</p>
+  <form method="post" action="https://moed.gov.sy/secondary-ch2/12th/resultpage.php" target="_blank">
+    <label for="branch">الفرع</label>
+    <select id="branch" name="branch" required>
+      <option value="1">العلمي</option>
+      <option value="2">الأدبي</option>
+      <option value="3">الشرعي</option>
+      <option value="4">المهني التجاري</option>
+      <option value="5">المهني النسوي</option>
+      <option value="6">المهني الصناعي</option>
+    </select>
+
+    <label for="city">المحافظة</label>
+    <select id="city" name="city" required>
+      <option value="1">دمشق</option><option value="2">ريف دمشق</option><option value="3">القنيطرة</option>
+      <option value="4">درعا</option><option value="5">السويداء</option><option value="6">حمص</option>
+      <option value="7">حماة</option><option value="8">حلب</option><option value="9">إدلب</option>
+      <option value="10">اللاذقية</option><option value="11">طرطوس</option><option value="12">دير الزور</option>
+      <option value="13">الحسكة</option><option value="14">الرقة</option>
+    </select>
+
+    <label for="stnumber">رقم الاكتتاب</label>
+    <input id="stnumber" name="stnumber" inputmode="numeric" pattern="[0-9]+" autocomplete="off" required placeholder="أدخل رقم الاكتتاب">
+    <input type="hidden" name="sub-branch" value="">
+    <button type="submit">عرض النتيجة من الوزارة</button>
+  </form>
+
+  <a class="button" href="https://syriaresults.com/bakalorya" target="_blank" rel="noopener">فتح المرآة المستقلة</a>
+  <a class="button" href="https://www.3lom4all.com/syria-results/baccalaureate-2026/" target="_blank" rel="noopener">فتح واجهة علوم للجميع</a>
+
+  <div class="note">عند الضغط مرة واحدة انتظر حتى 60 ثانية. تكرار الضغط بسرعة يزيد الحمل وقد يقطع الاتصال. لا تحفظ هذه الصفحة أي رقم أو نتيجة.</div>
+  <p class="small">تنبيه: هذه واجهة مساعدة غير رسمية، ومصدر النتيجة النهائي هو وزارة التربية والتعليم السورية.</p>
+</main>
+</body>
+</html>
